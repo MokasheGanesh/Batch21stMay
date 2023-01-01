@@ -22,8 +22,8 @@ public class TestClass
 		
 		//(verify login functionality)
 		LogInpage login= new LogInpage(driver);
-				  login.sendUserName();
-				  login.sendpassword();
+				  login.sendUserName(null);
+				  login.sendpassword(null);
 				  login.clickOnLoginButton();
 	
 			//(verify home page)
@@ -32,7 +32,7 @@ public class TestClass
 					  home.verifyleaveTab();
 					  home.verifyPIMTab();
 					
-	
+	System.out.println("Added new changes to project");
 			
 		
 	}
