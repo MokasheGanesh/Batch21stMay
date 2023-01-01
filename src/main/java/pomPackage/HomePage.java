@@ -34,7 +34,9 @@ public class HomePage {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@role='presentation']")));
 		
 		boolean result=role.isDisplayed();
+
 		System.out.println("git demo p");
+
 		return result;
 	}
 	
