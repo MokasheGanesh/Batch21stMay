@@ -67,6 +67,8 @@ public class TestClassA_TestNG extends Pojo{
 		  s.assertAll();
 		  
 		  
+		  s.assertEquals(false, false);
+		s.assertAll(ExpectedURL);  
 		 
 	}
 	
